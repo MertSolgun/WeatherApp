@@ -1,0 +1,159 @@
+body {
+  background-image: url(./weather.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: 50px auto;
+  transform: translate(-50%, -50%);
+}
+input::placeholder {
+  color: white;
+}
+.card {
+  background-color: transparent;
+  width: 300px;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: rgba(207, 199, 199, 0.135);
+}
+.card:hover {
+  box-shadow: 1px 1px 20px white;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+}
+
+.country {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.tempature {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.humidtyStatus {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.windContainer {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale(0);
+    transform-origin: 50% 0%;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+}
+
+.fa-location-dot {
+  left: 10px;
+  color: white;
+  z-index: 99;
+  position: absolute;
+}
+
+.inputDiv {
+  border-bottom: 1px solid white;
+}
+.inputDiv input {
+  padding: 10px;
+  border: none;
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  z-index: 9;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+
+.inputDiv button {
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  right: 10px;
+  border: none;
+  z-index: 99;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.weatherIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherTempature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherTempature span {
+  font-size: 2rem;
+}
+
+.bottomDiv {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+
+.weat-icon {
+  width: 120px;
+}
+
+.humSpeed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+}
+
+.humimg {
+  width: 60px;
+}
+.humidtyStatus {
+  line-height: 8px;
+}
+.windContainer {
+  line-height: 6px;
+}
+
+.Wimg {
+  width: 60px;
+}
