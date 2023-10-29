@@ -52,7 +52,7 @@ loc.addEventListener("blur", function () {
   this.placeholder = "Enter your location";
 });
 
-// =====================Getlocation===
+// =====Getlocation=======
 
 async function fetchWeatherByCoords(lat, lon) {
   const response = await fetch(
@@ -100,7 +100,7 @@ function weatherUpdate(data) {
     country.innerHTML = data.name;
     weatherTempature.appendChild(country);
 
-    //Derece (tempature)
+    // (tempature)
 
     let temp = document.createElement("span");
     let celcius = Math.round(data.main.temp - 273.15);
