@@ -14,8 +14,8 @@ async function weather() {
 
   if (loc.value === "") {
     Swal.fire({
-      icon: "error",
-      title: "Hata!",
+      icon: "warning",
+      title: "Warning!",
       text: "Please Enter Country.",
     });
     return;
@@ -67,7 +67,7 @@ function weatherUpdate(data) {
   if (data.cod !== 200) {
     Swal.fire({
       icon: "error",
-      title: "Hata!",
+      title: "error!",
       text: "Please Enter Country correctly.",
     });
   } else {
@@ -116,8 +116,8 @@ function weatherUpdate(data) {
     weatherTempature.appendChild(weatherStatus);
 
     //Img
-    let humImgContainer = document.createElement("div"); // imgnin kapsayici divi
-    let img = document.createElement("img"); // image bu
+    let humImgContainer = document.createElement("div");
+    let img = document.createElement("img");
     img.src = "./img/humidity.png";
     img.className = "humimg";
     humImgContainer.appendChild(img);
@@ -172,8 +172,8 @@ locationBtn.addEventListener("click", async () => {
     fetchWeatherByCoords(coords.latitude, coords.longitude);
   } catch (error) {
     Swal.fire({
-      icon: "error",
-      title: "Hata!",
+      icon: "question",
+      title: "Location Rejected!",
       text: "No location information was received. Please allow Location",
     });
   }
