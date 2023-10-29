@@ -29,7 +29,7 @@ input::placeholder {
   transition: all ease-in-out 1s;
 }
 
-.country {
+.weatherStatus {
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 .tempature {
@@ -141,7 +141,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .humimg {
@@ -156,4 +156,35 @@ input::placeholder {
 
 .Wimg {
   width: 60px;
+}
+
+.locationBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.locationBtn button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.line {
+  height: 1px;
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+.line-container span {
+  color: white;
 }
