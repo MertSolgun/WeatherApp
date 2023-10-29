@@ -188,3 +188,12 @@ input::placeholder {
 .line-container span {
   color: white;
 }
+
+div:where(.swal2-container).swal2-backdrop-show,
+div:where(.swal2-container).swal2-noanimation {
+  background-image: url(./weather.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 100vh !important;
+  background-repeat: no-repeat !important;
+}
