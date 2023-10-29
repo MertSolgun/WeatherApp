@@ -29,6 +29,9 @@ Grant permission to access your location when prompted.
 The app will automatically fetch and display the weather for your current location.
 
 
+
+<img src="https://github.com/MertSolgun/WeatherApp/assets/115940928/e4fc5168-5f03-46ba-a43a-83aaf87b1e3f" width="100%"> 
+
  <br> ❓- For API: <a href="https://openweathermap.org/api" >API</a> <br>
 
 > [!IMPORTANT]
@@ -58,7 +61,9 @@ I fixed it with these codes
 
 
 
-https://github.com/MertSolgun/WeatherApp/assets/115940928/48f48b3b-ef02-4a48-908e-b3a99d5a7ff2
+
+
+
 
 
 
