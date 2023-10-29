@@ -19,6 +19,7 @@ input::placeholder {
 .card {
   background-color: transparent;
   width: 300px;
+  color: white;
   padding: 3px;
   border-radius: 10px;
   background-color: rgba(207, 199, 199, 0.135);

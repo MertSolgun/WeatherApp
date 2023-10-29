@@ -30,7 +30,6 @@ async function weather() {
   humSpeed.innerHTML = "";
 
   weatherUpdate(data);
-  console.log(data);
 }
 
 searchBtn.addEventListener("click", weather);
