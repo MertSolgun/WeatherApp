@@ -25,3 +25,11 @@ The app will automatically fetch and display the weather for your current locati
 - [x] Keyboard acess?
 
 
+
+
+
+
+https://github.com/MertSolgun/WeatherApp/assets/115940928/48f48b3b-ef02-4a48-908e-b3a99d5a7ff2
+
+
+
