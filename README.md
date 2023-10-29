@@ -43,12 +43,13 @@ The app will automatically fetch and display the weather for your current locati
 
 <h1>Problem Solving</h1><br>
 
- <img src="https://github.com/MertSolgun/WeatherApp/assets/115940928/bdc38716-5880-4ba1-9d95-9f8844e4d39a" width="30%" align="right" />  
+ <img src="https://github.com/MertSolgun/WeatherApp/assets/115940928/bdc38716-5880-4ba1-9d95-9f8844e4d39a" width="30%" align="left" />  
 
 While using the SweetAlert library in the project, I encountered an issue related to an alert. When the alert appeared, the background turned white.
 
+I fixed it with these codes
 
- <img src="https://github.com/MertSolgun/WeatherApp/assets/115940928/e370ce80-25c5-434e-b0f3-b58b2f9a0113" width="60%"  />  
+ <img src="https://github.com/MertSolgun/WeatherApp/assets/115940928/e370ce80-25c5-434e-b0f3-b58b2f9a0113" width="60%" align="right" />  
 
 
 
