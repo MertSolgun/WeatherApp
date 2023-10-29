@@ -22,7 +22,7 @@ async function weather() {
   }
 
   const data = await response.json();
-  card.style.height = "600px";
+  card.style.height = "auto";
   loc.value = "";
   loc.placeholder = "Enter your location";
   weatherIcon.innerHTML = "";
